@@ -1,0 +1,15 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() //
+        maven {
+            url "http://jitpack.io/"
+            allowInsecureProtocol = true
+        }
+// Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "Video Transcoding"
+include ':app'
